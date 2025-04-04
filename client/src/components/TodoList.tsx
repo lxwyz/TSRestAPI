@@ -71,7 +71,7 @@ const TodoList = () => {
   if (error) return <div className="text-center text-red-500">Error: {error}</div>;
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-gray-100 rounded-lg shadow-md">
+    <div className="max-w-lg mx-auto p-6 bg-gray-100 rounded-lg shadow-md mt-4">
       <h2 className="text-2xl font-bold text-gray-700 mb-4">Todo List</h2>
       {todos.length === 0 ? (
         <p>No todos found</p>
